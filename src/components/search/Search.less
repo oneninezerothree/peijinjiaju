@@ -1,0 +1,147 @@
+.box {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  background: white;
+  z-index: 999;
+  transition: all .3s;
+
+  overflow: hidden;
+}
+
+.show {
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  transition: all .3s;
+  opacity: 1;
+}
+
+.searchbox {
+  padding: 0.423077rem 0;
+  height: 1.561538rem;
+  overflow: hidden;
+}
+
+.icon {
+  color: #a9aaac;
+  font-size: 1.038462rem;
+  height: 1.569231rem;
+  width: 10%;
+  text-align: center;
+  line-height: 1.679231rem;
+  float: left;
+}
+
+.val {
+  height: 1.484615rem;
+  width: 85%;
+  position: relative;
+  border: solid 1px #bfbfbf;
+  border-radius: 2px;
+  float: left;
+
+  label {
+    position: absolute;
+    color: #a9aaac;
+    width: 1.487385rem;
+    font-size: 1.038462rem;
+    top: 0;
+    left: 0;
+    height: 1.484615rem;
+    line-height: 1.615385rem;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 16.000008px;
+    outline: 0;
+    padding: 0 2.253615rem 0 1.487385rem;
+    box-sizing: border-box;
+  }
+}
+
+.todo {
+  position: absolute;
+
+  right: 0;
+  top: 0;
+  width: 2.253346rem;
+  color: #fff;
+  font-size: 0.615385rem;
+  height: 1.484615rem;
+  line-height: 1.615385rem;
+  background-color: #aaa;
+  text-align: center;
+}
+
+.showclose {
+  display: none;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  height: 0.692308rem;
+  transform: translateY(-75%);
+  font-size: 0.692308rem;
+  color: red;
+  z-index: 9;
+  font-weight: 900;
+
+}
+
+.history {
+  padding: 0.721154rem 0.721154rem 0;
+
+  >p {
+    color: #333;
+    font-weight: 400;
+    margin-bottom: .5rem;
+    font-size: 0.576923rem;
+  }
+}
+
+.tips {
+  span {
+    font-size: .6rem;
+    display: inline-block;
+    color: #999;
+    border: solid 1px #ddd;
+    padding: .3rem .5rem;
+    margin: 0 .4rem .4rem 0;
+    border-radius: 2px;
+    cursor: pointer;
+    max-width: 5.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+}
+.clear{
+    color: #666;
+    width: 12.5rem;
+    background-color: #f2f2f2;
+    margin: .2rem auto .8rem auto;
+    text-align: center;
+    font-size: .65rem;
+    padding: .35rem 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.isshow{
+  display: none;
+}

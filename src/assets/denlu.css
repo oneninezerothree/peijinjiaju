@@ -1,0 +1,23 @@
+.denlu {
+  width: 100%;
+  height: 100%;
+}
+
+.usernames {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 2px;
+  display: flex;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+}
+
+
+.inputs{    
+    border: none;
+    line-height: 2.5rem;
+    font-size: .7rem;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
